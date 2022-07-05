@@ -6,22 +6,20 @@ class ViewController: UIViewController {
     @IBOutlet weak var signUp: UIButton! {
         didSet {
             signUp.layer.cornerRadius = 10
-            signUp.backgroundColor = .systemBlue
+            signUp.backgroundColor = .white
             signUp.setTitleColor(.black, for: .normal)
         }
     }
-    @IBOutlet weak var logIN: UIButton! {
+    @IBOutlet weak var logIn: UIButton! {
         didSet {
-            logIN.layer.cornerRadius = 10
-            logIN.backgroundColor = .white
-            logIN.setTitleColor(.black, for: .normal)
+            logIn.layer.cornerRadius = 10
+            logIn.backgroundColor = .systemBlue
+            logIn.setTitleColor(.black, for: .normal)
         }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
-
 }
 

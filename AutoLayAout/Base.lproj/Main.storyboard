@@ -74,8 +74,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="logIN" destination="b0q-he-5tS" id="VDD-Jn-Gt2"/>
-                        <outlet property="signUp" destination="5UY-ua-FI8" id="Vel-A9-fwr"/>
+                        <outlet property="logIn" destination="5UY-ua-FI8" id="Eua-IM-Uwc"/>
+                        <outlet property="signUp" destination="b0q-he-5tS" id="q4a-gF-2Vw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
