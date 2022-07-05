@@ -1,17 +1,18 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
+    @IBOutlet weak var userName: UITextField!
+    @IBOutlet weak var password: UITextField!
+    @IBOutlet weak var email: UITextField!
+    @IBOutlet weak var location: UITextField!
     @IBOutlet weak var save: UIButton! {
         didSet {
             save.layer.cornerRadius = 20
         }
     }
-    @IBOutlet weak var userName: UITextField!
-    @IBOutlet weak var password: UITextField!
-    @IBOutlet weak var email: UITextField!
-    @IBOutlet weak var location: UITextField!
     
     lazy var textFieldArray: [UITextField] = [userName, password, email,location]
+
     override func viewDidLoad() {
         super.viewDidLoad()
         setTextfieldDesign()

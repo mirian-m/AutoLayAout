@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZQA-Br-VHn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="6tz-s8-dDH">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="6tz-s8-dDH">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b0q-he-5tS">
@@ -42,7 +42,7 @@
                                 <color key="textColor" systemColor="systemGreenColor"/>
                                 <color key="highlightedColor" systemColor="labelColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rsz_3" translatesAutoresizingMaskIntoConstraints="NO" id="LWQ-a5-hCL">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="horse" translatesAutoresizingMaskIntoConstraints="NO" id="LWQ-a5-hCL">
                                 <rect key="frame" x="132" y="311.5" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="Rts-Rw-G5C"/>
@@ -196,10 +196,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="1" width="650" height="459.5"/>
         <image name="Anonymous" width="540" height="650"/>
+        <image name="background" width="650" height="459.5"/>
+        <image name="horse" width="173.5" height="191.5"/>
         <image name="pencil.circle.fill" catalog="system" width="128" height="121"/>
-        <image name="rsz_3" width="173.5" height="191.5"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
