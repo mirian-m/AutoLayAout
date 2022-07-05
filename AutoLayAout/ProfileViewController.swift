@@ -1,7 +1,6 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
-
     @IBOutlet weak var save: UIButton! {
         didSet {
             save.layer.cornerRadius = 20
@@ -28,7 +27,6 @@ extension UITextField {
         let border = CALayer()
         let width = CGFloat(1.0)
         border.borderColor = color.cgColor
-
         /* შევქმნათ მონაკვეთი რომლის საწყისი წერტილი იქნება (0, self.frame.size.height - width)
          ხოლო ბოლო წერტილი (self.frame.size.width, height: self.frame.size.height) */
         border.frame = CGRect(x: 0, y: self.frame.size.height - width, width:  self.frame.size.width, height: self.frame.size.height)
