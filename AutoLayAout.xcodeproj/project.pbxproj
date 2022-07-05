@@ -13,6 +13,7 @@
 		84EC69592873FAAE007D10B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EC69572873FAAE007D10B5 /* Main.storyboard */; };
 		84EC695B2873FABB007D10B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84EC695A2873FABB007D10B5 /* Assets.xcassets */; };
 		84EC695E2873FABB007D10B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EC695C2873FABB007D10B5 /* LaunchScreen.storyboard */; };
+		84EC696928744518007D10B5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EC696828744517007D10B5 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		84EC695A2873FABB007D10B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84EC695D2873FABB007D10B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84EC695F2873FABB007D10B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EC696828744517007D10B5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				84EC69512873FAAE007D10B5 /* AppDelegate.swift */,
 				84EC69532873FAAE007D10B5 /* SceneDelegate.swift */,
 				84EC69552873FAAE007D10B5 /* ViewController.swift */,
+				84EC696828744517007D10B5 /* ProfileViewController.swift */,
 				84EC69572873FAAE007D10B5 /* Main.storyboard */,
 				84EC695A2873FABB007D10B5 /* Assets.xcassets */,
 				84EC695C2873FABB007D10B5 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				84EC69562873FAAE007D10B5 /* ViewController.swift in Sources */,
 				84EC69522873FAAE007D10B5 /* AppDelegate.swift in Sources */,
+				84EC696928744518007D10B5 /* ProfileViewController.swift in Sources */,
 				84EC69542873FAAE007D10B5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +292,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AutoLayAout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,7 +300,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Mirian-maglakelidze.AutoLayAout";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -306,6 +311,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AutoLayAout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,7 +319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Mirian-maglakelidze.AutoLayAout";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
